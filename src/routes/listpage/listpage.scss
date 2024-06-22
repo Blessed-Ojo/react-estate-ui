@@ -1,0 +1,15 @@
+.ListPage{
+    display: flex;
+    height: 100%;
+    .listcontainer{
+        flex: 3.7;
+    }
+    .wapper{
+        padding-right: 50px;
+    }
+    .mapcontainer{
+        flex: 2;
+        background: #fcf5f3;
+    }
+}
+
