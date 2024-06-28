@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-y: visible;
+}
+::-webkit-scrollbar{
+  width: 0px;
 }
 a{
   text-decoration: none;

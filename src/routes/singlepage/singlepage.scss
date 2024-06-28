@@ -1,0 +1,46 @@
+.Singlepage {
+    display: flex;
+    height: 100%;
+    .details {
+        flex: 3.7;
+
+        .wrappersp {
+            padding-right: 50px;
+            .info {
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    .post {
+                        h1 {
+                            .address {
+                                font-style: italic;
+                            }
+                            .price {
+                                font-style: italic;
+                            }
+                        }
+                    }
+                    .user {
+                        
+                        .userimg{
+                            width: 50px;
+                            height: 50px;
+                            object-fit: cover;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+                .bottom {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+    .features {
+        flex: 2;
+        background-color: #fcf5f3;
+        .wrapperspg {
+            padding: 0px 20px;
+        }
+    }
+}
