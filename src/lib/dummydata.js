@@ -183,7 +183,7 @@ export const itemsdata = [
   export const singlePostData = {
     id: 1,
     title: "Beautiful Apartment",
-    price: 1200,
+    price: 12000,
     images: [
       "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
