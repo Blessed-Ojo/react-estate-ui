@@ -7,6 +7,7 @@ import ListPage from './routes/listpage/ListPage';
 import Layout from './routes/layout/Layout';
 import Singlepage from "./routes/singlepage/Singlepage";
 import Login from "./routes/login/Login";
+import Proflie from "./routes/proflie/Proflie";
 
  
 
@@ -29,6 +30,10 @@ function App() {
         {
           path:"/:id",
           element:<Singlepage/>
+        },
+        {
+          path:'/profile',
+          element:<Proflie/>
         },
         {
           path:"/login",
